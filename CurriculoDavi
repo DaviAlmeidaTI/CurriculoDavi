@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/D.png" />
+    <title>Curriculo Davi</title>
+</head>
+<body>
+    <h1>Davi Ruan Barbosa de Almeida</h1>
+    <img src="img/FotoCurriculoDavi.png" width="150px">
+    <br>Brasileiro, solteiro, 20 anos.
+    <br>Ribeirão Preto – SP
+    <br>Telefone: (16) 98834-5265
+    <br>E-mail: daviruan.balmeida@gmail.com
+
+    <br>
+    <br>
+
+    <h3>Objetivo</h3>
+    Quero desenvolver minhas habilidades e também contribuir para o sucesso da empresa. Em busca de uma oportunidade para desenvolver e melhorar meus conhecimentos, e também algo que possa me instruir de forma crescente e contínua, visando sempre o crescimento entre mim e a empresa. 
+
+    <br>
+    <br>
+
+    <h3>Formação Acadêmica</h3>
+
+    <ul>
+        <li>Ensino superior Cursando Presencialmente o 3º período em Análise e desenvolvimento de sistemas – Faculdade Reges – Início fevereiro/2023 até novembro/2025.</li>
+    </ul>
+
+    <br>
+
+    <h3>Experiência Profissional</h3>
+
+    <h4>2024 – 2024 (Atual) – GRUPO SEB</h4>
+    Cargo: Estagiário Tech
+    <br>Principais atividades: Suporte em geral.
+
+    <br>
+    <h4>2022 – 2024 - Farmácia Unimed</h4>
+    Cargo: Assistente de Farmácia I
+    <br>Principais atividades: Responsável pelo setor Espaço Viver Bem (EVB) - Unilar. Separação e estocagem de medicamentos e rotinas administrativas.
+
+    <br>
+    <h4>2020 – 2022 - Farmácia Unimed</h4>
+    Cargo: Jovem Aprendiz (CIEE)
+    <br>Principais atividades: Setor Administrativo e Almoxarifado.
+    
+    <br>
+    <br>
+
+    <h3>Qualificações e atividades Complementares</h3>
+    <ul>
+        <li>AI-900: Microsoft Azure AI Fundamentals / Senai Ribeirão Preto</li>
+        <li>Inglês básico</li>
+        <li>Pacote Office / Escola CAPTec – Escola Técnica do Comerciário</li>
+        <li>Capacitação Sap to Work (Cerificado em português, espanhol e inglês)</li>
+        <li>Palestra sobre UX Writing</li> 
+    </ul>
+
+    <br>
+
+    <h3>Informações Adicionais</h3>
+    <ul>
+        <li>Escolaridade: Ensino médio completo / Escola: E.E. Cônego Barros</li>
+        <li>Conhecimentos básicos em Tráfego Pago, adquiridos através de estudos autodidatas e cursos.</li>
+    </ul>
+
+</body>
+</html>
