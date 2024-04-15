@@ -1,0 +1,343 @@
+HTML PAGE1:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/page1.css">
+    <link rel="shortcut icon" href="css/img/ShorIconDI.jpeg">
+    <title>DriveInnovate | Página Inicial</title>
+</head>
+<body>
+    <div id="c1">
+        <div class="s1">
+            <h1>DriveInnovate</h1>
+            <h3>Sobre a DriveInnovate: Impulsionando o Futuro Automotivo</h3>
+        </div>
+        <div class="s2">
+            Na DriveInnovate, estamos na vanguarda da revolução digital no setor automotivo. Como uma empresa dedicada ao desenvolvimento e fornecimento de soluções de software de ponta para concessionárias automotivas, estamos moldando o futuro da indústria.
+            <br><br>
+            Fundada com a visão de capacitar concessionárias a alcançarem novos patamares de eficiência, produtividade e satisfação do cliente, a DriveInnovate oferece uma suíte abrangente de soluções que abordam os desafios mais prementes enfrentados pelo setor automotivo.
+            <br><br>
+            Nossa equipe é composta por especialistas apaixonados por tecnologia e automóveis, unidos pelo compromisso de impulsionar a inovação e oferecer resultados excepcionais aos nossos clientes. Ao combinar expertise técnica com uma profunda compreensão das necessidades do mercado, estamos constantemente desenvolvendo e aprimorando nosso software para atender às demandas em constante evolução das concessionárias automotivas.
+            <br><br>
+            Nossas soluções oferecem uma variedade de recursos e funcionalidades, desde gestão de estoque e vendas até atendimento ao cliente e análise de dados. Com uma interface intuitiva e fácil de usar, nosso software capacita as concessionárias a otimizarem suas operações, melhorarem a experiência do cliente e impulsionarem o crescimento do negócio.
+            <br><br>
+            Na DriveInnovate, acreditamos que a inovação é a chave para o sucesso sustentável no competitivo mercado automotivo. Estamos comprometidos em fornecer soluções que não apenas atendam, mas também superem as expectativas de nossos clientes, permitindo-lhes prosperar em um ambiente em constante mudança.
+            <br><br>
+            Seja você uma concessionária de pequeno porte ou uma grande rede de distribuição, estamos aqui para ajudá-lo a alcançar seus objetivos e levar sua operação para o próximo nível. Junte-se a nós na jornada rumo ao futuro do setor automotivo. Juntos, podemos impulsionar a inovação e criar um amanhã melhor para todos os envolvidos. Na DriveInnovate, estamos prontos para moldar o futuro automotivo, um software de cada vez.
+            <br><br>
+        </div>
+    </div>
+            <br><br>
+         <div class="s3" >
+            <a href="page2.html" target="_blank">
+                <button style="width: 200px; height: 50px; font-size: 13px; padding: 10px; line-height: 30px; background-color: rgb(219, 228, 219);">CADASTRE SUA EMPRESA</button>    
+            </a> 
+            <a href="page3.html" target="_blank">
+                <button style="width: 200px; height: 50px; font-size: 13px; padding: 10px; line-height: 30px; background-color: rgb(219, 228, 219);">SERVIÇOS</button>
+            </a>
+        
+            <a href="page4.html" target="_blank">
+                <button style="width: 200px; height: 50px; font-size: 13px; padding: 10px; line-height: 30px; background-color: rgb(219, 228, 219);">NOSSOS VALORES</button>
+            </a>
+
+    </div>
+
+</body>
+</html>
+
+
+CSS PAGE1:
+body{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(244, 241, 241);
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.s1 h1 {
+    text-align: center; 
+    background-color: cadetblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.s3  {
+    text-align: center; 
+}
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML PAGE2:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/page2.css">
+    <link rel="shortcut icon" href="css/img/ShorIconDI.jpeg">
+    <title>DriveInnovate | Cadastro</title>
+</head>
+<body>
+    <div id="c1">
+        <div class="s1">
+            <h1>DriveInnovate</h1>
+            <h4>Realize a cadastro da sua empresa para entrarmos em contato.</h4>
+        </div>
+        <fieldset>
+            <legend>Dados Cadastrais:</legend><br>
+            <label>Nome Completo do Solicitante:</label>
+            <input type="text" name="nomesolicitante" id="nomesolicitante" size="50px"
+            placeholder="Ex: Daniel Rosa - O Brabo" required /><br/><br>
+            <label>E-mail: </label>
+            <input type="email" name="email" id="email" size="50px" placeholder="Ex: danielrosaobrabo@reges.com" required/><br>  <br>
+            <label>Nome da Empresa: </label>
+            <input type="text" name="empresa" id="empresa" size="50px" required/><br> <br>
+            <label>Celular (Com DDD):</label>
+            <input type="text" name="numero" id="numero" required/><br>  <br> 
+            <label>Tem E-commerce:</label>
+            <label>
+                <input type="radio" name="e-commerce" value="sim">Sim
+            </label>
+            <label>
+                <input type="radio" name="e-commerce" value="nao">Não <br><br>
+            </label>
+            <label>Numero de estabelecimentos:</label>
+            <select name="estabelecimentos" id="estabelecimentos"> 
+                <option value="0a5">De 0 a 5</option>
+                <option value="6a15">De 6 a 15</option>
+                <option value="maisde15">Mais de 15</option>
+                <option value="ns">Não sei</option>    
+            </select><br><br>
+            <label>Informaçoes Adicionais:</label><br>
+            <textarea name="informacao" rows="10" cols="30"
+            maxlength="400" placeholder="Digite aqui..."></textarea><br><br>
+            <input type="checkbox" name="avpriv" id="avpriv" required/>
+            <label>Eu li e aceito os termos do <b>Aviso de Privacidade</b></label><br>
+            <input type="checkbox" name="comunic" id="comunic" />
+            <label>Desejo receber as comunicações da DriveInnovate e parceiros</label><br>
+            <br>
+            <br>
+            <a href="page1.html">
+                <input type="submit" style="width: 200px; height: 50px; font-size: 13px; padding: 10px; line-height: 30px; background-color: rgb(219, 228, 219);" value="Enviar" /> 
+            </a>
+        </fieldset>
+
+    </div>
+</body>
+
+
+CSS PAGE2:
+
+body{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(244, 241, 241);
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.s1 h1 {
+    text-align: center; 
+    background-color: cadetblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HTML PAGE3:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/page3.css">
+    <link rel="shortcut icon" href="css/img/ShorIconDI.jpeg">
+    <title>DriveInnovate | Serviços</title>
+</head>
+<body>
+    <div id="c1">
+        <div class="s1">
+            <h1>DriveInnovate</h1>
+            <h3>Descubra a Vanguarda em Soluções Automotivas - Nossos Serviços</h3>
+        </div>
+        Na DriveInnovate, estamos empenhados em fornecer soluções tecnológicas de ponta que revolucionam a maneira como as concessionárias automotivas operam. Com uma abordagem modular, nossa suíte de serviços abrange uma ampla gama de funcionalidades projetadas para otimizar cada aspecto do seu negócio. Aqui está uma visão abrangente de nossos serviços modulares:
+        <br>
+        <ol>
+            <li> <h4>Módulo de Inteligência Artificial para Reconhecimento de Placas e Tokens:</h4>
+                Nossa avançada tecnologia de inteligência artificial capacita as concessionárias a automatizarem a leitura de placas veiculares e tokens, agilizando processos de entrada e saída de veículos no estoque, controle de acesso e muito mais. Com precisão e eficiência inigualáveis, nosso sistema elimina erros manuais e aumenta a segurança.
+            </li><br>
+            <li><h4>Controle de Estoque:</h4>
+                Simplificamos a gestão do estoque de veículos com nosso módulo dedicado. Desde o acompanhamento em tempo real do inventário até a organização por critérios específicos, como marca, modelo e ano, nossa plataforma oferece uma visão abrangente do seu estoque. Além disso, recursos de alerta e notificação garantem que você nunca perca uma oportunidade de venda.
+            </li><br>
+            <li><h4>Vendas e Compras de Automóveis:</h4>
+                Facilitamos o processo de vendas e compras de veículos com nossa solução integrada. Desde o registro e acompanhamento de leads até a finalização da transação, nossa plataforma simplifica cada etapa do processo. Com recursos de gerenciamento de clientes e integração com sistemas de pagamento, garantimos uma experiência fluida para concessionárias e clientes.
+            </li><br>
+             <li><h4>Serviços Personalizados:</h4>
+                Além dos módulos principais, oferecemos serviços personalizados para atender às necessidades exclusivas de cada concessionária. Isso pode incluir desenvolvimento de aplicativos móveis personalizados, integração com sistemas existentes, treinamento de equipe e muito mais. Nosso compromisso é oferecer soluções sob medida que impulsionem o crescimento e o sucesso do seu negócio.
+            </li> 
+        </ol>  
+           
+        Na DriveInnovate, estamos constantemente inovando e atualizando nossos serviços para garantir que nossos clientes estejam um passo à frente da concorrência. Com uma equipe de especialistas dedicados e uma paixão pela excelência, estamos prontos para ajudá-lo a alcançar novos patamares de sucesso no competitivo mercado automotivo. Junte-se a nós e descubra o poder da inovação em sua concessionária.
+        <br><br>
+        <a href="page1.html">
+            <button style="width: 200px; height: 50px; font-size: 13px; padding: 10px; line-height: 30px; background-color: rgb(219, 228, 219);">Página Inicial</button>    
+        </a>    
+    </div>    
+
+</body>
+
+
+CSS PAGE3:
+
+body{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(244, 241, 241);
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.s1 h1 {
+    text-align: center; 
+    background-color: cadetblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HTML PAGE4:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/page4.css">
+    <link rel="shortcut icon" href="css/img/ShorIconDI.jpeg">
+    <title>DriveInnovate | Nossos Valores</title>
+</head>
+<body>
+    <div id="c1">
+        <div class="title">
+            <div class="s1">
+                <h1>DriveInnovate | Valores</h1>
+            </div>
+            <br>
+        </div>
+        <div class="s1">
+            <h1>Inovação Constante</h1>
+        </div>
+        <div class="s2">
+            <ul>
+                <li><p>Acreditamos que a inovação é o motor do progresso. Estamos comprometidos em buscar constantemente novas ideias, tecnologias e abordagens para melhorar nossos serviços e impulsionar o setor automotivo para o futuro. Através da criatividade e da curiosidade, estamos sempre explorando novas fronteiras e desafiando o status quo.</p></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        
+        <div class="s3">
+            <h1>Excelência do Cliente</h1>
+        </div>
+        <div class="s4">
+            <ul>
+                <li><p>Colocamos nossos clientes no centro de tudo o que fazemos. Nosso compromisso inabalável com a excelência do cliente impulsiona cada interação e decisão que tomamos. Estamos dedicados a compreender as necessidades e expectativas de nossos clientes, superar suas expectativas e fornecer soluções que agreguem valor real aos seus negócios.</p></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div class="s5">
+            <h1>Integridade e Transparência</h1>
+        </div>
+        <div class="s6">
+                <ul>
+                    <li><p>Operamos com os mais altos padrões de integridade e transparência. Valorizamos a honestidade, a ética e a responsabilidade em todas as nossas relações comerciais. Mantemos nossas promessas, agimos com honestidade em todas as situações e cultivamos um ambiente de confiança e respeito mútuo com nossos clientes, parceiros e colegas.</p></li>
+                    
+                </ul>
+        </div>  
+        <br><br>
+            <a href="page1.html">
+                <button style="width: 200px; height: 50px; font-size: 13px; padding: 10px; line-height: 30px; background-color: rgb(219, 228, 219);">Página Inicial</button>    
+            </a>   
+    </div>
+    
+</body>
+
+
+CSS PAGE4:
+
+body{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(244, 241, 241);
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title h1 {
+    text-align: center; 
+    background-color: cadetblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#c1 {
+    background-color: rgb(156, 156, 232);
+    height: 1000px;
+    width: 100%;
+}
+
+
+.s1 h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.s2 {
+    
+
+margin-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+color: white;
+}
+.s3 h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+}
+.s4 {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    }
+ .s5 h1 {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        margin: 0px;
+        }
+.s6 {
+        margin-top: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        color: white;
+    }
